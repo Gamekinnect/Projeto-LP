@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nextage</title>
+  <!--link icone-->
+  <link rel="icon" href="IMAGE/Ícone lp.png" >
+  <!--link CSS-->
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<h1>🎮 Busca de Jogos</h1>
+
+<div class="topo">
+  <input type="text" id="busca" placeholder="Digite o nome do jogo">
+  <button class="buscar-btn" onclick="buscarJogos()">Buscar</button>
+</div>
+
+<h2>Resultados</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Imagem</th>
+      <th>Nome</th>
+      <th>Preço</th>
+      <th>Promo</th>
+      <th>Desconto</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody id="tabelaJogos"></tbody>
+</table>
+
+<div class="secao">
+  <h2>⭐ Favoritos</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Imagem</th>
+        <th>Nome</th>
+        <th>Preço</th>
+        <th>Promo</th>
+        <th>Desconto</th>
+        <th>Ação</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaFavoritos"></tbody>
+  </table>
+</div>
+
+<script src="JS/script.js"></script>
+
+</body>
+</html>
