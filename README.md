@@ -51,8 +51,8 @@ Ou acesse via GitHub Pages (se disponível)
 
 ## Autores 👻👽🤖 
 
-Paulo Cesar
-João Luiz
+Paulo Cesar,
+João Luiz,
 Luis Guilherme
 
 ## Observações
